@@ -24,7 +24,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="#">Home</a>
 					</li>
 					<li class="nav-item">
@@ -337,17 +337,7 @@
 		</div>
 	</footer>
 
-<script>
-$('nav a').click(function(){
-    //$(yourSelector).removeClass('enable');
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 700, function(){
-       // $(yourSelector).addClass('enable');
-    });
-    return true;
-});
-</script>
+<script src="main.js"></script>
 </body>
 
 </html>
